@@ -30,6 +30,32 @@
     
     
     <entry>
+      <title>电脑硬件科普---主板篇</title>
+      <link href="/2023/01/08/%E4%B8%BB%E6%9D%BF/"/>
+      <url>/2023/01/08/%E4%B8%BB%E6%9D%BF/</url>
+      
+        <content type="html"><![CDATA[<p>主板，是计算机最基本也是最重要的部件之一<br>除了电源其他我说到的部件全都装在这上面，还有各种接口<br>主板还有BIOS芯片，南桥北桥芯片<br>主板结构分为AT,BABY AT,ATX,BTX,一体化主板(一体机中多)NLX<br>想买主板的可以去中关村在线去查主板排行榜哦</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>常用命令</title>
+      <link href="/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+      <url>/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<p>hexo s 启动服务器。默认情况下，访问网址为： <a href="http://localhost:4000/%E3%80%82">http://localhost:4000/。</a><br>hexo clean 清除缓存文件 (db.json) 和已生成的静态文件 (public)<br>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。<br>hexo cl; hexo s  访问本地<br>hexo clean; hexo henerate; hexo deploy 部署<br>上网搜去<br>删除插件npm uninstall &lt;你的插件名&gt;<br>查看插件npm list</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>电脑硬件科普---电源篇</title>
       <link href="/2023/01/08/%E7%94%B5%E6%BA%90/"/>
       <url>/2023/01/08/%E7%94%B5%E6%BA%90/</url>
@@ -160,9 +186,9 @@
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movie/index.html"/>
-      <url>/movie/index.html</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -171,9 +197,9 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>电影</title>
+      <link href="/movie/index.html"/>
+      <url>/movie/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
