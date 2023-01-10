@@ -83,7 +83,7 @@
       <link href="/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
       <url>/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
       
-        <content type="html"><![CDATA[<p>hexo s 启动服务器。默认情况下，访问网址为： <a href="http://localhost:4000/%E3%80%82">http://localhost:4000/。</a><br>hexo clean 清除缓存文件 (db.json) 和已生成的静态文件 (public)<br>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。<br>hexo cl; hexo s  访问本地<br>hexo clean; hexo henerate; hexo deploy 部署<br>上网搜去<br>删除插件npm uninstall &lt;你的插件名&gt;<br>查看插件npm list</p>]]></content>
+        <content type="html"><![CDATA[<p>hexo s 启动服务器。默认情况下，访问网址为： <a href="http://localhost:4000/%E3%80%82">http://localhost:4000/。</a><br>hexo clean 清除缓存文件 (db.json) 和已生成的静态文件 (public)<br>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。<br>hexo cl; hexo s  访问本地<br>hexo clean; hexo henerate; hexo deploy 部署<br>上网搜去<br>删除插件npm uninstall &lt;你的插件名&gt;<br>查看插件npm list<br>更新追番数据hexo bangumi -u（用这哥们的追番插件<a href="https://blog.hclonely.com/posts/8422e92e/%EF%BC%89">https://blog.hclonely.com/posts/8422e92e/）</a></p>]]></content>
       
       
       <categories>
@@ -182,22 +182,22 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[<p>6</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>6</p>]]></content>
       
     </entry>
     
@@ -303,17 +303,6 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>movies</title>
       <link href="/movies/index.html"/>
       <url>/movies/index.html</url>
@@ -330,6 +319,17 @@
       <url>/music/index.html</url>
       
         <content type="html"><![CDATA[<p>歌单：<a href="https://music.163.com/playlist?id=618944412&userid=431630528">https://music.163.com/playlist?id=618944412&amp;userid=431630528</a><br>平时都是用每日推荐的</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
