@@ -11,6 +11,18 @@
         <content type="html"><![CDATA[<p>cpu相当于电脑的大脑<br>cpu的三大组成部分分别是:1、运算器;2、控制器;3、寄存器<br>寄存器：用来临时存放参加运算的数据和运算得到的中间（或最后）的结果。<br>运算器：用来对二进制数据进行加减乘除或者与或非等各种基本的算术运算和逻辑运算。也称为算术逻辑部件（ALU）。运算器中的ALU可能有很多个<br>控制器（CPU的指挥中心）它有一个指令计数器，用来存放cpu正在执行的指令的地址（内存中的指令）。控制器中还有一个指令寄存器是用来保存当前真在执行的指令，通过译码器解释该指令的含义。<br>匈牙利数学家冯诺依曼提出了“存储程序控制”原理。</p>]]></content>
       
       
+      <categories>
+          
+          <category> 电脑硬件介绍 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑硬件介绍 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -24,6 +36,18 @@
         <content type="html"><![CDATA[<p>内存条(RAM)是电脑必不可少的组成部分，CPU可通过数据总线对内存寻址。历史上的电脑主板上有主内存，内存条是主内存的扩展。以后的电脑主板上没有主内存，CPU完全依赖内存条。所有外存上的内容必须通过内存才能发挥作用。<br>内存条经历了DDR DDR2 DDR3 DDR4(主流) DDR5(主流)<br>内存条品牌推荐：金士顿，芝奇，英睿达，英睿达美光，威刚，影驰，十铨，七彩虹等</p>]]></content>
       
       
+      <categories>
+          
+          <category> 电脑硬件介绍 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑硬件介绍 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -37,6 +61,18 @@
         <content type="html"><![CDATA[<p>主板，是计算机最基本也是最重要的部件之一<br>除了电源其他我说到的部件全都装在这上面，还有各种接口<br>主板还有BIOS芯片，南桥北桥芯片<br>主板结构分为AT,BABY AT,ATX,BTX,一体化主板(一体机中多)NLX<br>想买主板的可以去中关村在线去查主板排行榜哦</p>]]></content>
       
       
+      <categories>
+          
+          <category> 电脑硬件介绍 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑硬件介绍 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -50,6 +86,18 @@
         <content type="html"><![CDATA[<p>hexo s 启动服务器。默认情况下，访问网址为： <a href="http://localhost:4000/%E3%80%82">http://localhost:4000/。</a><br>hexo clean 清除缓存文件 (db.json) 和已生成的静态文件 (public)<br>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。<br>hexo cl; hexo s  访问本地<br>hexo clean; hexo henerate; hexo deploy 部署<br>上网搜去<br>删除插件npm uninstall &lt;你的插件名&gt;<br>查看插件npm list</p>]]></content>
       
       
+      <categories>
+          
+          <category> hexo命令 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo命令 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -63,6 +111,18 @@
         <content type="html"><![CDATA[<p>顾名思义没电源电脑就开不了机<br>购买建议买一线品牌的电源(买之前上网搜一搜这个牌子)</p>]]></content>
       
       
+      <categories>
+          
+          <category> 电脑硬件介绍 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑硬件介绍 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -76,6 +136,18 @@
         <content type="html"><![CDATA[<p>硬盘就是装东西的不用多说了<br>硬盘分固态硬盘和机械硬盘<br>推荐使用固态硬盘，机械硬盘要用cmr的记录方式<br>机械硬盘记录方式有2种cmr和smr<br>为什么要用cmr的你可以去网上搜视频了解一下</p>]]></content>
       
       
+      <categories>
+          
+          <category> 电脑硬件介绍 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑硬件介绍 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -89,6 +161,18 @@
         <content type="html"><![CDATA[<p>显卡知识普及<br>一、什么是显卡？<br>  显示接口卡（Video card，Graphics card）、显示器配置卡简称为显卡，是个人电脑基本组成部分之一。</p><p>  用途是将计算机系统所需要的显示信息进行转换驱动，并向显示器提供信号，控制显示器的正确显示，是连接显示器和个人电脑主板的重要元件。</p><p>  民用显卡芯片供应商主要包括AMD（原ATI）和NVIDIA(英伟达)两家。<br> 二、显卡分类<br>显卡按照分类存在位置分为集成显卡和独立显卡两大类。<br>1.集成显卡（不建议使用）<br>2.独立显卡<br>后续有时间在更新 </p>]]></content>
       
       
+      <categories>
+          
+          <category> 电脑硬件介绍 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑硬件介绍 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -153,17 +237,6 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="/js/newYear.js"/>
       <url>/js/newYear.js</url>
@@ -202,6 +275,28 @@
       <url>/js/weather.js</url>
       
         <content type="html"><![CDATA[WIDGET = {  "CONFIG": {    "modules": "01234",    "background": "1",    "tmpColor": "00FFFF",    "tmpSize": "16",    "cityColor": "FFFFFF",    "citySize": "16",    "aqiColor": "FFFFFF",    "aqiSize": "16",    "weatherIconSize": "24",    "alertIconSize": "18",    "padding": "10px 10px 10px 10px",    "shadow": "0",    "language": "auto",    "fixed": "false",    "vertical": "top",    "horizontal": "left",    "key": "3eb34118d7484a158829e05e77932d0e"  }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
