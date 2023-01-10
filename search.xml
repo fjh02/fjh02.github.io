@@ -132,6 +132,39 @@
     
     <entry>
       <title></title>
+      <link href="/css/loading.css"/>
+      <url>/css/loading.css</url>
+      
+        <content type="html"><![CDATA[.loading-img {    background: url( https://cdn.staticaly.com/gh/fjh02/piic__bed@main/photo/tb.jfzw7u3akz4.webp) no-repeat center center;    background-size: cover;  }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/progress_bar.css"/>
+      <url>/css/progress_bar.css</url>
+      
+        <content type="html"><![CDATA[.pace {    -webkit-pointer-events: none;    pointer-events: none;    -webkit-user-select: none;    -moz-user-select: none;    user-select: none;    z-index: 2000;    position: fixed;    margin: auto;    top: 10px;    left: 0;    right: 0;    height: 8px;    border-radius: 8px;    width: 4rem;    background: #eaecf2;    border: 1px #e3e8f7;    overflow: hidden;  }    .pace-inactive .pace-progress {    opacity: 0;    transition: 2s ease-in;  }    .pace .pace-progress {    -webkit-box-sizing: border-box;    -moz-box-sizing: border-box;    -ms-box-sizing: border-box;    -o-box-sizing: border-box;    box-sizing: border-box;    -webkit-transform: translate3d(0, 0, 0);    -moz-transform: translate3d(0, 0, 0);    -ms-transform: translate3d(0, 0, 0);    -o-transform: translate3d(0, 0, 0);    transform: translate3d(0, 0, 0);    max-width: 200px;    position: absolute;    z-index: 2000;    display: block;    top: 0;    right: 100%;    height: 100%;    width: 100%;    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);    animation: gradient 1.5s ease infinite;    background-size: 200%;  }    .pace.pace-inactive {    opacity: 0;    transition: 0.3s;    top: -8px;  }  @keyframes gradient {    0% {      background-position: 0% 50%;    }    50% {      background-position: 100% 50%;    }    100% {      background-position: 0% 50%;    }  }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/newYear.js"/>
       <url>/js/newYear.js</url>
       
@@ -169,17 +202,6 @@
       <url>/js/weather.js</url>
       
         <content type="html"><![CDATA[WIDGET = {  "CONFIG": {    "modules": "01234",    "background": "1",    "tmpColor": "00FFFF",    "tmpSize": "16",    "cityColor": "FFFFFF",    "citySize": "16",    "aqiColor": "FFFFFF",    "aqiSize": "16",    "weatherIconSize": "24",    "alertIconSize": "18",    "padding": "10px 10px 10px 10px",    "shadow": "0",    "language": "auto",    "fixed": "false",    "vertical": "top",    "horizontal": "left",    "key": "3eb34118d7484a158829e05e77932d0e"  }}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
