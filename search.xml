@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>vr购买建议</title>
+      <link href="/2023/01/13/vr%E8%B4%AD%E4%B9%B0%E5%BB%BA%E8%AE%AE/"/>
+      <url>/2023/01/13/vr%E8%B4%AD%E4%B9%B0%E5%BB%BA%E8%AE%AE/</url>
+      
+        <content type="html"><![CDATA[<p>首先国产vr 首推PICO系列<br>字节跳动收购之后PICO系列目前已经出到4代(一年出一代)<br>缺点 游戏少，不能安装学习版一体机游戏。<br>优点 售后有保障 上手简单，串流效果目前已经优化的很可以了。<br>新手建议小黄鱼入手PICO NEO3和4代都是一个芯片。</p><p>Oculus Quest 2(简称quest2)<br>入门级vr最推荐的和PICO34代才用同一芯片<br>缺点 国内没有代理商 售后麻烦 激活需要科学<br>优点 一体机内游戏很多，可以安装学习版游戏到一体机内，串流效果好。<br>个人建议可以等年底的quest3(三年出一代)</p><p>Valve index 高端级别vr  v社自家vr设备19年发布的设备到现在也是能打  不多介绍 牛就行了</p><p>HTC vive Pro2 高端级别vr v社和htc一起推出的vr</p><p>小派8KX 超高端级别</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 选购建议 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vr </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>电脑硬件科普--cpu篇</title>
       <link href="/2023/01/08/cpu/"/>
       <url>/2023/01/08/cpu/</url>
@@ -54,31 +79,6 @@
     
     
     <entry>
-      <title>常用命令</title>
-      <link href="/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
-      <url>/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-      
-        <content type="html"><![CDATA[<p>hexo s 启动服务器。默认情况下，访问网址为： <a href="http://localhost:4000/%E3%80%82">http://localhost:4000/。</a><br>hexo clean 清除缓存文件 (db.json) 和已生成的静态文件 (public)<br>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。<br>hexo cl; hexo s  访问本地<br>hexo clean; hexo henerate; hexo deploy 部署<br>上网搜去<br>删除插件npm uninstall &lt;你的插件名&gt;<br>查看插件npm list<br>更新追番数据hexo bangumi -u </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> hexo命令 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> hexo命令 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>电脑硬件科普---主板篇</title>
       <link href="/2023/01/08/%E4%B8%BB%E6%9D%BF/"/>
       <url>/2023/01/08/%E4%B8%BB%E6%9D%BF/</url>
@@ -96,6 +96,31 @@
         <tags>
             
             <tag> 电脑硬件介绍 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>常用命令</title>
+      <link href="/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+      <url>/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<p>hexo s 启动服务器。默认情况下，访问网址为： <a href="http://localhost:4000/%E3%80%82">http://localhost:4000/。</a><br>hexo clean 清除缓存文件 (db.json) 和已生成的静态文件 (public)<br>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。<br>hexo cl; hexo s  访问本地<br>hexo clean; hexo henerate; hexo deploy 部署<br>上网搜去<br>删除插件npm uninstall &lt;你的插件名&gt;<br>查看插件npm list<br>更新追番数据hexo bangumi -u </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo命令 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo命令 </tag>
             
         </tags>
       
@@ -193,17 +218,6 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="/css/biaoti.css"/>
       <url>/css/biaoti.css</url>
@@ -238,17 +252,6 @@
     
     <entry>
       <title></title>
-      <link href="/css/loading.css"/>
-      <url>/css/loading.css</url>
-      
-        <content type="html"><![CDATA[.loading-img {    background: url( https://cdn.staticaly.com/gh/fjh02/piic__bed@main/photo/tb.jfzw7u3akz4.webp) no-repeat center center;    background-size: cover;  }]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/css/music.css"/>
       <url>/css/music.css</url>
       
@@ -271,10 +274,32 @@
     
     <entry>
       <title></title>
+      <link href="/css/loading.css"/>
+      <url>/css/loading.css</url>
+      
+        <content type="html"><![CDATA[.loading-img {    background: url( https://cdn.staticaly.com/gh/fjh02/piic__bed@main/photo/tb.jfzw7u3akz4.webp) no-repeat center center;    background-size: cover;  }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/css/universe.css"/>
       <url>/css/universe.css</url>
       
         <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -293,10 +318,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/newYear.js"/>
-      <url>/js/newYear.js</url>
+      <link href="/js/snow.js"/>
+      <url>/js/snow.js</url>
       
-        <content type="html"><![CDATA[let newYearTimer = null;var newYear = () => {    clearTimeout(newYearTimer);    if (!document.querySelector('#newYear')) return;    // 新年时间戳 and 星期对象    let newYear = new Date('2023-01-22 00:00:00').getTime() / 1000,        week = { 0: '周日', 1: '周一', 2: '周二', 3: '周三', 4: '周四', 5: '周五', 6: '周六' }    time();    // 补零函数    function nol(h) { return h > 9 ? h : '0' + h; };    function time() {        // 现在 时间对象        let now = new Date();        // 右下角 今天        document.querySelector('#newYear .today').innerHTML = now.getFullYear() + '-' + (now.getMonth() + 1) + '-' + now.getDate() + ' ' + week[now.getDay()]        // 现在与新年相差秒数        let second = newYear - Math.round(now.getTime() / 1000);        // 小于0则表示已经过年        if (second < 0) {            document.querySelector('#newYear .title').innerHTML = 'Happy New Year!';            document.querySelector('#newYear .newYear-time').innerHTML = '<span class="happyNewYear">新年快乐</p>';        } else {            // 大于0则还未过年            document.querySelector('#newYear .title').innerHTML = '距离2023年春节：'            // 大于一天则直接渲染天数            if (second > 86400) {                document.querySelector('#newYear .newYear-time').innerHTML = `<span class="day">${Math.ceil(second / 86400)}<span class="unit">天</span></span>`            } else {                // 小于一天则使用时分秒计时。                let h = nol(parseInt(second / 3600));                second %= 3600;                let m = nol(parseInt(second / 60));                second %= 60;                let s = nol(second);                document.querySelector('#newYear .newYear-time').innerHTML = `<span class="time">${h}:${m}:${s}</span></span>`;                // 计时                newYearTimer = setTimeout(time, 1000);            }        }    }    // 元宝飘落    jQuery(document).ready(function ($) {        $('#newYear').wpSuperSnow({            flakes: ['https://tuchuang.voooe.cn/images/2023/01/02/yb1.webp', 'https://tuchuang.voooe.cn/images/2023/01/02/yb2.webp', 'https://tuchuang.voooe.cn/images/2023/01/02/yb3.webp'],            totalFlakes: '100',            zIndex: '999999',            maxSize: '30',            maxDuration: '20',            useFlakeTrans: false        });    });}// Pjax适配：若没有开启Pjax这里直接是newYear()即可// 开了Pjax的用以下两句newYear();]]></content>
+        <content type="html"><![CDATA[/*样式二*//* 控制下雪 */function snowFall(snow) {    /* 可配置属性 */    snow = snow || {};    this.maxFlake = snow.maxFlake || 200;   /* 最多片数 */    this.flakeSize = snow.flakeSize || 10;  /* 雪花形状 */    this.fallSpeed = snow.fallSpeed || 1;   /* 坠落速度 */}/* 兼容写法 */requestAnimationFrame = window.requestAnimationFrame ||    window.mozRequestAnimationFrame ||    window.webkitRequestAnimationFrame ||    window.msRequestAnimationFrame ||    window.oRequestAnimationFrame ||    function(callback) { setTimeout(callback, 1000 / 60); };cancelAnimationFrame = window.cancelAnimationFrame ||    window.mozCancelAnimationFrame ||    window.webkitCancelAnimationFrame ||    window.msCancelAnimationFrame ||    window.oCancelAnimationFrame;/* 开始下雪 */snowFall.prototype.start = function(){    /* 创建画布 */    snowCanvas.apply(this);    /* 创建雪花形状 */    createFlakes.apply(this);    /* 画雪 */    drawSnow.apply(this)}/* 创建画布 */function snowCanvas() {    /* 添加Dom结点 */    var snowcanvas = document.createElement("canvas");    snowcanvas.id = "snowfall";    snowcanvas.width = window.innerWidth;    snowcanvas.height = document.body.clientHeight;    snowcanvas.setAttribute("style", "position:absolute; top: 0; left: 0; z-index: 1; pointer-events: none;");    document.getElementsByTagName("body")[0].appendChild(snowcanvas);    this.canvas = snowcanvas;    this.ctx = snowcanvas.getContext("2d");    /* 窗口大小改变的处理 */    window.onresize = function() {        snowcanvas.width = window.innerWidth;        /* snowcanvas.height = window.innerHeight */    }}/* 雪运动对象 */function flakeMove(canvasWidth, canvasHeight, flakeSize, fallSpeed) {    this.x = Math.floor(Math.random() * canvasWidth);   /* x坐标 */    this.y = Math.floor(Math.random() * canvasHeight);  /* y坐标 */    this.size = Math.random() * flakeSize + 2;          /* 形状 */    this.maxSize = flakeSize;                           /* 最大形状 */    this.speed = Math.random() * 1 + fallSpeed;         /* 坠落速度 */    this.fallSpeed = fallSpeed;                         /* 坠落速度 */    this.velY = this.speed;                             /* Y方向速度 */    this.velX = 0;                                      /* X方向速度 */    this.stepSize = Math.random() / 30;                 /* 步长 */    this.step = 0                                       /* 步数 */}flakeMove.prototype.update = function() {    var x = this.x,        y = this.y;    /* 左右摆动(余弦) */    this.velX *= 0.98;    if (this.velY <= this.speed) {        this.velY = this.speed    }    this.velX += Math.cos(this.step += .05) * this.stepSize;    this.y += this.velY;    this.x += this.velX;    /* 飞出边界的处理 */    if (this.x >= canvas.width || this.x <= 0 || this.y >= canvas.height || this.y <= 0) {        this.reset(canvas.width, canvas.height)    }};/* 飞出边界-放置最顶端继续坠落 */flakeMove.prototype.reset = function(width, height) {    this.x = Math.floor(Math.random() * width);    this.y = 0;    this.size = Math.random() * this.maxSize + 2;    this.speed = Math.random() * 1 + this.fallSpeed;    this.velY = this.speed;    this.velX = 0;};// 渲染雪花-随机形状（此处可修改雪花颜色！！！）flakeMove.prototype.render = function(ctx) {    var snowFlake = ctx.createRadialGradient(this.x, this.y, 0, this.x, this.y, this.size);    snowFlake.addColorStop(0, "rgba(255, 255, 255, 0.9)");  /* 此处是雪花颜色，默认是白色 */    snowFlake.addColorStop(.5, "rgba(255, 255, 255, 0.5)"); /* 若要改为其他颜色，请自行查 */    snowFlake.addColorStop(1, "rgba(255, 255, 255, 0)");    /* 找16进制的RGB 颜色代码。 */    ctx.save();    ctx.fillStyle = snowFlake;    ctx.beginPath();    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);    ctx.fill();    ctx.restore();};/* 创建雪花-定义形状 */function createFlakes() {    var maxFlake = this.maxFlake,        flakes = this.flakes = [],        canvas = this.canvas;    for (var i = 0; i < maxFlake; i++) {        flakes.push(new flakeMove(canvas.width, canvas.height, this.flakeSize, this.fallSpeed))    }}/* 画雪 */function drawSnow() {    var maxFlake = this.maxFlake,        flakes = this.flakes;    ctx = this.ctx, canvas = this.canvas, that = this;    /* 清空雪花 */    ctx.clearRect(0, 0, canvas.width, canvas.height);    for (var e = 0; e < maxFlake; e++) {        flakes[e].update();        flakes[e].render(ctx);    }    /*  一帧一帧的画 */    this.loop = requestAnimationFrame(function() {        drawSnow.apply(that);    });}/* 调用及控制方法 */var snow = new snowFall({maxFlake:60});snow.start();]]></content>
       
     </entry>
     
@@ -304,10 +329,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/snow.js"/>
-      <url>/js/snow.js</url>
+      <link href="/js/newYear.js"/>
+      <url>/js/newYear.js</url>
       
-        <content type="html"><![CDATA[/*样式二*//* 控制下雪 */function snowFall(snow) {    /* 可配置属性 */    snow = snow || {};    this.maxFlake = snow.maxFlake || 200;   /* 最多片数 */    this.flakeSize = snow.flakeSize || 10;  /* 雪花形状 */    this.fallSpeed = snow.fallSpeed || 1;   /* 坠落速度 */}/* 兼容写法 */requestAnimationFrame = window.requestAnimationFrame ||    window.mozRequestAnimationFrame ||    window.webkitRequestAnimationFrame ||    window.msRequestAnimationFrame ||    window.oRequestAnimationFrame ||    function(callback) { setTimeout(callback, 1000 / 60); };cancelAnimationFrame = window.cancelAnimationFrame ||    window.mozCancelAnimationFrame ||    window.webkitCancelAnimationFrame ||    window.msCancelAnimationFrame ||    window.oCancelAnimationFrame;/* 开始下雪 */snowFall.prototype.start = function(){    /* 创建画布 */    snowCanvas.apply(this);    /* 创建雪花形状 */    createFlakes.apply(this);    /* 画雪 */    drawSnow.apply(this)}/* 创建画布 */function snowCanvas() {    /* 添加Dom结点 */    var snowcanvas = document.createElement("canvas");    snowcanvas.id = "snowfall";    snowcanvas.width = window.innerWidth;    snowcanvas.height = document.body.clientHeight;    snowcanvas.setAttribute("style", "position:absolute; top: 0; left: 0; z-index: 1; pointer-events: none;");    document.getElementsByTagName("body")[0].appendChild(snowcanvas);    this.canvas = snowcanvas;    this.ctx = snowcanvas.getContext("2d");    /* 窗口大小改变的处理 */    window.onresize = function() {        snowcanvas.width = window.innerWidth;        /* snowcanvas.height = window.innerHeight */    }}/* 雪运动对象 */function flakeMove(canvasWidth, canvasHeight, flakeSize, fallSpeed) {    this.x = Math.floor(Math.random() * canvasWidth);   /* x坐标 */    this.y = Math.floor(Math.random() * canvasHeight);  /* y坐标 */    this.size = Math.random() * flakeSize + 2;          /* 形状 */    this.maxSize = flakeSize;                           /* 最大形状 */    this.speed = Math.random() * 1 + fallSpeed;         /* 坠落速度 */    this.fallSpeed = fallSpeed;                         /* 坠落速度 */    this.velY = this.speed;                             /* Y方向速度 */    this.velX = 0;                                      /* X方向速度 */    this.stepSize = Math.random() / 30;                 /* 步长 */    this.step = 0                                       /* 步数 */}flakeMove.prototype.update = function() {    var x = this.x,        y = this.y;    /* 左右摆动(余弦) */    this.velX *= 0.98;    if (this.velY <= this.speed) {        this.velY = this.speed    }    this.velX += Math.cos(this.step += .05) * this.stepSize;    this.y += this.velY;    this.x += this.velX;    /* 飞出边界的处理 */    if (this.x >= canvas.width || this.x <= 0 || this.y >= canvas.height || this.y <= 0) {        this.reset(canvas.width, canvas.height)    }};/* 飞出边界-放置最顶端继续坠落 */flakeMove.prototype.reset = function(width, height) {    this.x = Math.floor(Math.random() * width);    this.y = 0;    this.size = Math.random() * this.maxSize + 2;    this.speed = Math.random() * 1 + this.fallSpeed;    this.velY = this.speed;    this.velX = 0;};// 渲染雪花-随机形状（此处可修改雪花颜色！！！）flakeMove.prototype.render = function(ctx) {    var snowFlake = ctx.createRadialGradient(this.x, this.y, 0, this.x, this.y, this.size);    snowFlake.addColorStop(0, "rgba(255, 255, 255, 0.9)");  /* 此处是雪花颜色，默认是白色 */    snowFlake.addColorStop(.5, "rgba(255, 255, 255, 0.5)"); /* 若要改为其他颜色，请自行查 */    snowFlake.addColorStop(1, "rgba(255, 255, 255, 0)");    /* 找16进制的RGB 颜色代码。 */    ctx.save();    ctx.fillStyle = snowFlake;    ctx.beginPath();    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);    ctx.fill();    ctx.restore();};/* 创建雪花-定义形状 */function createFlakes() {    var maxFlake = this.maxFlake,        flakes = this.flakes = [],        canvas = this.canvas;    for (var i = 0; i < maxFlake; i++) {        flakes.push(new flakeMove(canvas.width, canvas.height, this.flakeSize, this.fallSpeed))    }}/* 画雪 */function drawSnow() {    var maxFlake = this.maxFlake,        flakes = this.flakes;    ctx = this.ctx, canvas = this.canvas, that = this;    /* 清空雪花 */    ctx.clearRect(0, 0, canvas.width, canvas.height);    for (var e = 0; e < maxFlake; e++) {        flakes[e].update();        flakes[e].render(ctx);    }    /*  一帧一帧的画 */    this.loop = requestAnimationFrame(function() {        drawSnow.apply(that);    });}/* 调用及控制方法 */var snow = new snowFall({maxFlake:60});snow.start();]]></content>
+        <content type="html"><![CDATA[let newYearTimer = null;var newYear = () => {    clearTimeout(newYearTimer);    if (!document.querySelector('#newYear')) return;    // 新年时间戳 and 星期对象    let newYear = new Date('2023-01-22 00:00:00').getTime() / 1000,        week = { 0: '周日', 1: '周一', 2: '周二', 3: '周三', 4: '周四', 5: '周五', 6: '周六' }    time();    // 补零函数    function nol(h) { return h > 9 ? h : '0' + h; };    function time() {        // 现在 时间对象        let now = new Date();        // 右下角 今天        document.querySelector('#newYear .today').innerHTML = now.getFullYear() + '-' + (now.getMonth() + 1) + '-' + now.getDate() + ' ' + week[now.getDay()]        // 现在与新年相差秒数        let second = newYear - Math.round(now.getTime() / 1000);        // 小于0则表示已经过年        if (second < 0) {            document.querySelector('#newYear .title').innerHTML = 'Happy New Year!';            document.querySelector('#newYear .newYear-time').innerHTML = '<span class="happyNewYear">新年快乐</p>';        } else {            // 大于0则还未过年            document.querySelector('#newYear .title').innerHTML = '距离2023年春节：'            // 大于一天则直接渲染天数            if (second > 86400) {                document.querySelector('#newYear .newYear-time').innerHTML = `<span class="day">${Math.ceil(second / 86400)}<span class="unit">天</span></span>`            } else {                // 小于一天则使用时分秒计时。                let h = nol(parseInt(second / 3600));                second %= 3600;                let m = nol(parseInt(second / 60));                second %= 60;                let s = nol(second);                document.querySelector('#newYear .newYear-time').innerHTML = `<span class="time">${h}:${m}:${s}</span></span>`;                // 计时                newYearTimer = setTimeout(time, 1000);            }        }    }    // 元宝飘落    jQuery(document).ready(function ($) {        $('#newYear').wpSuperSnow({            flakes: ['https://tuchuang.voooe.cn/images/2023/01/02/yb1.webp', 'https://tuchuang.voooe.cn/images/2023/01/02/yb2.webp', 'https://tuchuang.voooe.cn/images/2023/01/02/yb3.webp'],            totalFlakes: '100',            zIndex: '999999',            maxSize: '30',            maxDuration: '20',            useFlakeTrans: false        });    });}// Pjax适配：若没有开启Pjax这里直接是newYear()即可// 开了Pjax的用以下两句newYear();]]></content>
       
     </entry>
     
