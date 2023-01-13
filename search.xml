@@ -54,31 +54,6 @@
     
     
     <entry>
-      <title>电脑硬件科普---主板篇</title>
-      <link href="/2023/01/08/%E4%B8%BB%E6%9D%BF/"/>
-      <url>/2023/01/08/%E4%B8%BB%E6%9D%BF/</url>
-      
-        <content type="html"><![CDATA[<p>主板，是计算机最基本也是最重要的部件之一<br>除了电源其他我说到的部件全都装在这上面，还有各种接口<br>主板还有BIOS芯片，南桥北桥芯片<br>主板结构分为AT,BABY AT,ATX,BTX,一体化主板(一体机中多)NLX<br>想买主板的可以去中关村在线去查主板排行榜哦</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 电脑硬件介绍 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 电脑硬件介绍 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>常用命令</title>
       <link href="/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
       <url>/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
@@ -96,6 +71,31 @@
         <tags>
             
             <tag> hexo命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电脑硬件科普---主板篇</title>
+      <link href="/2023/01/08/%E4%B8%BB%E6%9D%BF/"/>
+      <url>/2023/01/08/%E4%B8%BB%E6%9D%BF/</url>
+      
+        <content type="html"><![CDATA[<p>主板，是计算机最基本也是最重要的部件之一<br>除了电源其他我说到的部件全都装在这上面，还有各种接口<br>主板还有BIOS芯片，南桥北桥芯片<br>主板结构分为AT,BABY AT,ATX,BTX,一体化主板(一体机中多)NLX<br>想买主板的可以去中关村在线去查主板排行榜哦</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 电脑硬件介绍 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑硬件介绍 </tag>
             
         </tags>
       
@@ -182,22 +182,22 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>6</p>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[<p>6</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -380,22 +380,22 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title></title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<!-- 播放器 --><div class="music-player"><!-- audio标签 --><audio class="music-player__audio" ></audio><!-- 播放器主体 --><div class="music-player__main"><!-- 模糊背景 --><div class="music-player__blur"></div><!-- 唱片 --><div class="music-player__disc"><!-- 唱片图片 --><div class="music-player__image"><img width="100%" src="" alt=""></div><!-- 指针 --><div class="music-player__pointer"><img width="100%" src="/img/cd_tou.png" alt=""></div></div><!-- 控件主体 --><div class="music-player__controls"><!-- 歌曲信息 --><div class="music__info"><h3 class="music__info--title">...</h3></div><!-- 控件... --><div class="player-control"><div class="player-control__content"><div class="player-control__btns"><div class="player-control__btn player-control__btn--prev"><i class="fa fa-step-backward" aria-hidden="true"></i></div><div class="player-control__btn player-control__btn--play"><i class="fa fa-play" aria-hidden="true"></i></div><div class="player-control__btn player-control__btn--next"><i class="fa fa-step-forward" aria-hidden="true"></i></div><div class="player-control__btn player-control__btn--mode"><i class="fa fa-random" aria-hidden="true"></i></div></div><div class="player-control__volume"><div class="control__volume--icon player-control__btn"><i class="iconfont icon-volume"></i></div><div class="control__volume--progress progress"></div></div></div><div class="player-control__content"><div class="player__song--progress progress"></div><div class="player__song--timeProgess nowTime">00:00</div><div class="player__song--timeProgess totalTime">00:00</div></div></div></div></div><!-- 歌曲列表 --><div class="music-player__list"><ul class="music__list_content"></ul></div></div><script src="/js/utill.js"></script><script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.slim.min.js"></script><script src="/js/player.js?10"></script><div style="text-align:center;margin:-100px 0; font:normal 14px/24px 'MicroSoft YaHei';color:#ffffff"></div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title></title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
-        <content type="html"><![CDATA[<!-- 播放器 --><div class="music-player"><!-- audio标签 --><audio class="music-player__audio" ></audio><!-- 播放器主体 --><div class="music-player__main"><!-- 模糊背景 --><div class="music-player__blur"></div><!-- 唱片 --><div class="music-player__disc"><!-- 唱片图片 --><div class="music-player__image"><img width="100%" src="" alt=""></div><!-- 指针 --><div class="music-player__pointer"><img width="100%" src="/img/cd_tou.png" alt=""></div></div><!-- 控件主体 --><div class="music-player__controls"><!-- 歌曲信息 --><div class="music__info"><h3 class="music__info--title">...</h3></div><!-- 控件... --><div class="player-control"><div class="player-control__content"><div class="player-control__btns"><div class="player-control__btn player-control__btn--prev"><i class="iconfont icon-prev"></i></div><div class="player-control__btn player-control__btn--play"><i class="iconfont icon-play"></i></div><div class="player-control__btn player-control__btn--next"><i class="iconfont icon-next"></i></div><div class="player-control__btn player-control__btn--mode"><i class="iconfont icon-random"></i></div></div><div class="player-control__volume"><div class="control__volume--icon player-control__btn"><i class="iconfont icon-volume"></i></div><div class="control__volume--progress progress"></div></div></div><div class="player-control__content"><div class="player__song--progress progress"></div><div class="player__song--timeProgess nowTime">00:00</div><div class="player__song--timeProgess totalTime">00:00</div></div></div></div></div><!-- 歌曲列表 --><div class="music-player__list"><ul class="music__list_content"></ul></div></div><script src="/js/utill.js"></script><script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.slim.min.js"></script><script src="/js/player.js?10"></script><div style="text-align:center;margin:-100px 0; font:normal 14px/24px 'MicroSoft YaHei';color:#ffffff"></div>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
