@@ -104,6 +104,31 @@
     
     
     <entry>
+      <title>电脑硬件科普---电源篇</title>
+      <link href="/2023/01/08/%E7%94%B5%E6%BA%90/"/>
+      <url>/2023/01/08/%E7%94%B5%E6%BA%90/</url>
+      
+        <content type="html"><![CDATA[<p>顾名思义没电源电脑就开不了机<br>购买建议买一线品牌的电源(买之前上网搜一搜这个牌子)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 电脑硬件介绍 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑硬件介绍 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>电脑硬件科普---硬盘篇</title>
       <link href="/2023/01/08/%E7%A1%AC%E7%9B%98/"/>
       <url>/2023/01/08/%E7%A1%AC%E7%9B%98/</url>
@@ -152,33 +177,19 @@
     </entry>
     
     
+  
+  
+    
     
     <entry>
-      <title>电脑硬件科普---电源篇</title>
-      <link href="/2023/01/08/%E7%94%B5%E6%BA%90/"/>
-      <url>/2023/01/08/%E7%94%B5%E6%BA%90/</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[<p>顾名思义没电源电脑就开不了机<br>购买建议买一线品牌的电源(买之前上网搜一搜这个牌子)</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 电脑硬件介绍 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 电脑硬件介绍 </tag>
-            
-        </tags>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
-    
-  
-  
     
     
     <entry>
@@ -187,17 +198,6 @@
       <url>/about/index.html</url>
       
         <content type="html"><![CDATA[<p>6</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/fps.css"/>
-      <url>/css/fps.css</url>
-      
-        <content type="html"><![CDATA[/* 帧率检测 */#fps {    position: fixed;    /* 指定位置 */    left: 10px;    bottom: 10px;    z-index: 1919810;  }  [data-theme="light"] #fps {    background-color: rgba(28, 94, 194, 0.85);    backdrop-filter: var(--backdrop-filter);    padding: 4px;    border-radius: 4px;  }  [data-theme="dark"] #fps {    background-color: #149e52b8;    backdrop-filter: var(--backdrop-filter);    padding: 4px;    border-radius: 4px;  }]]></content>
       
     </entry>
     
@@ -227,6 +227,28 @@
     
     <entry>
       <title></title>
+      <link href="/css/fps.css"/>
+      <url>/css/fps.css</url>
+      
+        <content type="html"><![CDATA[/* 帧率检测 */#fps {    position: fixed;    /* 指定位置 */    left: 10px;    bottom: 10px;    z-index: 1919810;  }  [data-theme="light"] #fps {    background-color: rgba(28, 94, 194, 0.85);    backdrop-filter: var(--backdrop-filter);    padding: 4px;    border-radius: 4px;  }  [data-theme="dark"] #fps {    background-color: #149e52b8;    backdrop-filter: var(--backdrop-filter);    padding: 4px;    border-radius: 4px;  }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/loading.css"/>
+      <url>/css/loading.css</url>
+      
+        <content type="html"><![CDATA[.loading-img {    background: url( https://cdn.staticaly.com/gh/fjh02/piic__bed@main/photo/tb.jfzw7u3akz4.webp) no-repeat center center;    background-size: cover;  }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/css/music.css"/>
       <url>/css/music.css</url>
       
@@ -249,32 +271,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/loading.css"/>
-      <url>/css/loading.css</url>
-      
-        <content type="html"><![CDATA[.loading-img {    background: url( https://cdn.staticaly.com/gh/fjh02/piic__bed@main/photo/tb.jfzw7u3akz4.webp) no-repeat center center;    background-size: cover;  }]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/css/universe.css"/>
       <url>/css/universe.css</url>
       
         <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -369,17 +369,6 @@
     
     
     <entry>
-      <title></title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[<!-- 播放器 --><div class="music-player"><!-- audio标签 --><audio class="music-player__audio" ></audio><!-- 播放器主体 --><div class="music-player__main"><!-- 模糊背景 --><div class="music-player__blur"></div><!-- 唱片 --><div class="music-player__disc"><!-- 唱片图片 --><div class="music-player__image"><img width="100%" src="" alt=""></div><!-- 指针 --><div class="music-player__pointer"><img width="100%" src="/img/cd_tou.png" alt=""></div></div><!-- 控件主体 --><div class="music-player__controls"><!-- 歌曲信息 --><div class="music__info"><h3 class="music__info--title">...</h3></div><!-- 控件... --><div class="player-control"><div class="player-control__content"><div class="player-control__btns"><div class="player-control__btn player-control__btn--prev"><i class="iconfont icon-prev"></i></div><div class="player-control__btn player-control__btn--play"><i class="iconfont icon-play"></i></div><div class="player-control__btn player-control__btn--next"><i class="iconfont icon-next"></i></div><div class="player-control__btn player-control__btn--mode"><i class="iconfont icon-random"></i></div></div><div class="player-control__volume"><div class="control__volume--icon player-control__btn"><i class="iconfont icon-volume"></i></div><div class="control__volume--progress progress"></div></div></div><div class="player-control__content"><div class="player__song--progress progress"></div><div class="player__song--timeProgess nowTime">00:00</div><div class="player__song--timeProgess totalTime">00:00</div></div></div></div></div><!-- 歌曲列表 --><div class="music-player__list"><ul class="music__list_content"></ul></div></div><script src="/js/utill.js"></script><script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.slim.min.js"></script><script src="/js/player.js?10"></script><div style="text-align:center;margin:-100px 0; font:normal 14px/24px 'MicroSoft YaHei';color:#ffffff"></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>movies</title>
       <link href="/movies/index.html"/>
       <url>/movies/index.html</url>
@@ -396,6 +385,17 @@
       <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[<!-- 播放器 --><div class="music-player"><!-- audio标签 --><audio class="music-player__audio" ></audio><!-- 播放器主体 --><div class="music-player__main"><!-- 模糊背景 --><div class="music-player__blur"></div><!-- 唱片 --><div class="music-player__disc"><!-- 唱片图片 --><div class="music-player__image"><img width="100%" src="" alt=""></div><!-- 指针 --><div class="music-player__pointer"><img width="100%" src="/img/cd_tou.png" alt=""></div></div><!-- 控件主体 --><div class="music-player__controls"><!-- 歌曲信息 --><div class="music__info"><h3 class="music__info--title">...</h3></div><!-- 控件... --><div class="player-control"><div class="player-control__content"><div class="player-control__btns"><div class="player-control__btn player-control__btn--prev"><i class="iconfont icon-prev"></i></div><div class="player-control__btn player-control__btn--play"><i class="iconfont icon-play"></i></div><div class="player-control__btn player-control__btn--next"><i class="iconfont icon-next"></i></div><div class="player-control__btn player-control__btn--mode"><i class="iconfont icon-random"></i></div></div><div class="player-control__volume"><div class="control__volume--icon player-control__btn"><i class="iconfont icon-volume"></i></div><div class="control__volume--progress progress"></div></div></div><div class="player-control__content"><div class="player__song--progress progress"></div><div class="player__song--timeProgess nowTime">00:00</div><div class="player__song--timeProgess totalTime">00:00</div></div></div></div></div><!-- 歌曲列表 --><div class="music-player__list"><ul class="music__list_content"></ul></div></div><script src="/js/utill.js"></script><script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.slim.min.js"></script><script src="/js/player.js?10"></script><div style="text-align:center;margin:-100px 0; font:normal 14px/24px 'MicroSoft YaHei';color:#ffffff"></div>]]></content>
       
     </entry>
     

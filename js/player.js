@@ -28,13 +28,13 @@ class Musics {
                 songUrl: './songs/cyx.mp3',
                 imageUrl: './images/songs/cyx.webp'
             },
-            // {
-            //     id: 2,
-            //     title: '妄想Reality（翻自 洛天依） - 炎祾',
-            //     singer: '妄想Reality（翻自 洛天依） - 炎祾',
-            //     songUrl: './songs/2.mp3',
-            //     imageUrl: './images/songs/2.webp'
-            // },
+            {
+                id: 2,
+                title: 'ありがとう…（谢谢你）',
+                singer: 'KOKIA',
+                songUrl: './songs/kokia.mp3',
+                imageUrl: './images/songs/kokia.webp'
+            },
 			// {
             //     id: 3,
             //     title: '人间失宠 - 昔诺',
