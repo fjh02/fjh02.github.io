@@ -448,4 +448,16 @@
 } */
 
 
-
+/* 个人信息卡片背景图 */
+/* [data-theme="light"] #aside-content > .card-widget.card-info {
+  background-image: url(https://sourcebucket.s3.ladydaily.com/img/snowflower.webp);
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: 100%; */
+/* } */
+[data-theme="dark"] #aside-content > .card-widget.card-info {
+  background-image: url( https://cdn.staticaly.com/gh/fjh02/piic__bed@main/photo/aurora.6l0ih55e3mk0.webp);
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: 100%;
+}
