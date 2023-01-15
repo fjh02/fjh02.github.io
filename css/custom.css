@@ -461,3 +461,13 @@
   background-attachment: inherit;
   background-size: 100%;
 }
+/*菜单栏多色动态图标（店长）*/
+svg.icon {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+
