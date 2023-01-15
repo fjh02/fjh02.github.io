@@ -104,6 +104,31 @@
     
     
     <entry>
+      <title>常用命令</title>
+      <link href="/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+      <url>/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<p>hexo s 启动服务器。默认情况下，访问网址为： <a href="http://localhost:4000/%E3%80%82">http://localhost:4000/。</a><br>hexo clean 清除缓存文件 (db.json) 和已生成的静态文件 (public)<br>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。<br>hexo cl; hexo s  访问本地<br>hexo clean; hexo henerate; hexo deploy 部署<br>上网搜去<br>删除插件npm uninstall &lt;你的插件名&gt;<br>查看插件npm list<br>更新追番数据hexo bangumi -u </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo命令 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>电脑硬件科普---电源篇</title>
       <link href="/2023/01/08/%E7%94%B5%E6%BA%90/"/>
       <url>/2023/01/08/%E7%94%B5%E6%BA%90/</url>
@@ -129,11 +154,11 @@
     
     
     <entry>
-      <title>常用命令</title>
-      <link href="/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
-      <url>/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+      <title>2d看板娘</title>
+      <link href="/2023/01/08/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
+      <url>/2023/01/08/%E7%9C%8B%E6%9D%BF%E5%A8%98/</url>
       
-        <content type="html"><![CDATA[<p>hexo s 启动服务器。默认情况下，访问网址为： <a href="http://localhost:4000/%E3%80%82">http://localhost:4000/。</a><br>hexo clean 清除缓存文件 (db.json) 和已生成的静态文件 (public)<br>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。<br>hexo cl; hexo s  访问本地<br>hexo clean; hexo henerate; hexo deploy 部署<br>上网搜去<br>删除插件npm uninstall &lt;你的插件名&gt;<br>查看插件npm list<br>更新追番数据hexo bangumi -u </p>]]></content>
+        <content type="html"><![CDATA[<p>在Hexo根目录[BlogRoot]下打开终端，输入以下指令安装必要插件：<br>npm install –save hexo-helper-live2d<br>打开站点配置文件[BlogRoot]\config.yml<br>搜索live2d,按照如下注释内容指示进行操作。<br>如果没有搜到live2d的配置项，就直接把以下内容复制到最底部。<br>注释 Live2D<br> 注释 <a href="https://github.com/EYHN/hexo-helper-live2d">https://github.com/EYHN/hexo-helper-live2d</a><br>live2d:<br>  enable: true #开关插件版看板娘<br>  scriptFrom: local # 默认<br>  pluginRootPath: live2dw&#x2F; # 插件在站点上的根目录(相对路径)<br>  pluginJsPath: lib&#x2F; # 脚本文件相对与插件根目录路径<br>  pluginModelPath: assets&#x2F; # 模型文件相对与插件根目录路径<br>  注释 scriptFrom: jsdelivr # jsdelivr CDN<br>  注释 scriptFrom: unpkg # unpkg CDN<br>  注释 scriptFrom: <a href="https://npm.elemecdn.com/live2d-widget@3.x/lib/L2Dwidget.min.js">https://npm.elemecdn.com/live2d-widget@3.x/lib/L2Dwidget.min.js</a> # 你的自定义 url<br>  tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中<br>  debug: false # 调试, 是否在控制台输出日志<br>  model:<br>    use: live2d-widget-model-wanko # npm-module package name<br>    # use: wanko # 博客根目录&#x2F;live2d_models&#x2F; 下的目录名<br>    # use: .&#x2F;wives&#x2F;wanko # 相对于博客根目录的路径<br>    # use: <a href="https://npm.elemecdn.com/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json">https://npm.elemecdn.com/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json</a> # 你的自定义 url<br>  display:<br>    position: right #控制看板娘位置<br>    width: 150 #控制看板娘大小<br>    height: 300 #控制看板娘大小<br>  mobile:<br>    show: true # 手机中是否展示</p><p>完成后保存修改，在Hexo根目录下运行指令。<br>hexo clean;hexo g;hexo s<br>更换模型<br>同样是在Hexo根目录[BlogRoot]下，打开终端，选择想要的看板娘进行安装，例如我这里用到的是 live2d-widget-model-miku<br>安装miku<br>npm install –save live2d-widget-model-miku<br> 然后在站点配置文件[BlogRoot]_config.yml里找到model项修改为期望的模型<br> model:<br>  use: live2d-widget-model-miku<br>  默认为live2d-widget-model-wanko<br>  随后hexo s</p>]]></content>
       
       
       <categories>
