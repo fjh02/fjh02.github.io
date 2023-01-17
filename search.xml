@@ -79,11 +79,11 @@
     
     
     <entry>
-      <title>电脑硬件科普---电源篇</title>
-      <link href="/2023/01/08/%E7%94%B5%E6%BA%90/"/>
-      <url>/2023/01/08/%E7%94%B5%E6%BA%90/</url>
+      <title>电脑硬件科普---主板篇</title>
+      <link href="/2023/01/08/%E4%B8%BB%E6%9D%BF/"/>
+      <url>/2023/01/08/%E4%B8%BB%E6%9D%BF/</url>
       
-        <content type="html"><![CDATA[<p>顾名思义没电源电脑就开不了机<br>购买建议买一线品牌的电源(买之前上网搜一搜这个牌子)</p>]]></content>
+        <content type="html"><![CDATA[<p>主板，是计算机最基本也是最重要的部件之一<br>除了电源其他我说到的部件全都装在这上面，还有各种接口<br>主板还有BIOS芯片，南桥北桥芯片<br>主板结构分为AT,BABY AT,ATX,BTX,一体化主板(一体机中多)NLX<br>想买主板的可以去中关村在线去查主板排行榜哦</p>]]></content>
       
       
       <categories>
@@ -129,6 +129,31 @@
     
     
     <entry>
+      <title>电脑硬件科普---电源篇</title>
+      <link href="/2023/01/08/%E7%94%B5%E6%BA%90/"/>
+      <url>/2023/01/08/%E7%94%B5%E6%BA%90/</url>
+      
+        <content type="html"><![CDATA[<p>顾名思义没电源电脑就开不了机<br>购买建议买一线品牌的电源(买之前上网搜一搜这个牌子)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 电脑硬件介绍 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑硬件介绍 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2d看板娘</title>
       <link href="/2023/01/08/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
       <url>/2023/01/08/%E7%9C%8B%E6%9D%BF%E5%A8%98/</url>
@@ -159,31 +184,6 @@
       <url>/2023/01/08/%E7%A1%AC%E7%9B%98/</url>
       
         <content type="html"><![CDATA[<p>硬盘就是装东西的不用多说了<br>硬盘分固态硬盘和机械硬盘<br>推荐使用固态硬盘，机械硬盘要用cmr的记录方式<br>机械硬盘记录方式有2种cmr和smr<br>为什么要用cmr的你可以去网上搜视频了解一下</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 电脑硬件介绍 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 电脑硬件介绍 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>电脑硬件科普---主板篇</title>
-      <link href="/2023/01/08/%E4%B8%BB%E6%9D%BF/"/>
-      <url>/2023/01/08/%E4%B8%BB%E6%9D%BF/</url>
-      
-        <content type="html"><![CDATA[<p>主板，是计算机最基本也是最重要的部件之一<br>除了电源其他我说到的部件全都装在这上面，还有各种接口<br>主板还有BIOS芯片，南桥北桥芯片<br>主板结构分为AT,BABY AT,ATX,BTX,一体化主板(一体机中多)NLX<br>想买主板的可以去中关村在线去查主板排行榜哦</p>]]></content>
       
       
       <categories>
