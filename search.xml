@@ -154,31 +154,6 @@
     
     
     <entry>
-      <title>2d看板娘</title>
-      <link href="/2023/01/08/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
-      <url>/2023/01/08/%E7%9C%8B%E6%9D%BF%E5%A8%98/</url>
-      
-        <content type="html"><![CDATA[<figure class="highlight plaintext"><figcaption><span>[2d看板娘]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line">在Hexo根目录[BlogRoot]下打开终端，输入以下指令安装必要插件：</span><br><span class="line">npm install --save hexo-helper-live2d</span><br><span class="line">打开站点配置文件[BlogRoot]\config.yml</span><br><span class="line">搜索live2d,按照如下注释内容指示进行操作。</span><br><span class="line">如果没有搜到live2d的配置项，就直接把以下内容复制到最底部。</span><br><span class="line"># Live2D</span><br><span class="line"> # https://github.com/EYHN/hexo-helper-live2d</span><br><span class="line">live2d:</span><br><span class="line">  enable: true #开关插件版看板娘</span><br><span class="line">  scriptFrom: local # 默认</span><br><span class="line">  pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)</span><br><span class="line">  pluginJsPath: lib/ # 脚本文件相对与插件根目录路径</span><br><span class="line">  pluginModelPath: assets/ # 模型文件相对与插件根目录路径</span><br><span class="line">  # scriptFrom: jsdelivr # jsdelivr CDN</span><br><span class="line">  # scriptFrom: unpkg # unpkg CDN</span><br><span class="line">  # scriptFrom: https://npm.elemecdn.com/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url</span><br><span class="line">  tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中</span><br><span class="line">  debug: false # 调试, 是否在控制台输出日志</span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-model-wanko # npm-module package name</span><br><span class="line">  # use: wanko # 博客根目录/live2d_models/ 下的目录名</span><br><span class="line">  # use: ./wives/wanko # 相对于博客根目录的路径</span><br><span class="line">  # use: https://npm.elemecdn.com/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url</span><br><span class="line">  display:</span><br><span class="line">    position: right #控制看板娘位置</span><br><span class="line">    width: 150 #控制看板娘大小</span><br><span class="line">    height: 300 #控制看板娘大小</span><br><span class="line">  mobile:</span><br><span class="line">    show: true # 手机中是否展示</span><br><span class="line"></span><br><span class="line">完成后保存修改，在Hexo根目录下运行指令。</span><br><span class="line">hexo clean;hexo g;hexo s</span><br><span class="line">更换模型</span><br><span class="line">同样是在Hexo根目录[BlogRoot]下，打开终端，选择想要的看板娘进行安装，例如我这里用到的是 live2d-widget-model-miku</span><br><span class="line">安装miku</span><br><span class="line">npm install --save live2d-widget-model-miku</span><br><span class="line"> 然后在站点配置文件[BlogRoot]\_config.yml里找到model项修改为期望的模型</span><br><span class="line"> model:</span><br><span class="line">  use: live2d-widget-model-miku</span><br><span class="line">  默认为live2d-widget-model-wanko</span><br><span class="line">  随后hexo s</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> hexo命令 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> hexo命令 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>电脑硬件科普---硬盘篇</title>
       <link href="/2023/01/08/%E7%A1%AC%E7%9B%98/"/>
       <url>/2023/01/08/%E7%A1%AC%E7%9B%98/</url>
@@ -221,6 +196,31 @@
         <tags>
             
             <tag> 电脑硬件介绍 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2d看板娘</title>
+      <link href="/2023/01/08/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
+      <url>/2023/01/08/%E7%9C%8B%E6%9D%BF%E5%A8%98/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><figcaption><span>[2d看板娘]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line">在Hexo根目录[BlogRoot]下打开终端，输入以下指令安装必要插件：</span><br><span class="line">npm install --save hexo-helper-live2d</span><br><span class="line">打开站点配置文件[BlogRoot]\config.yml</span><br><span class="line">搜索live2d,按照如下注释内容指示进行操作。</span><br><span class="line">如果没有搜到live2d的配置项，就直接把以下内容复制到最底部。</span><br><span class="line"># Live2D</span><br><span class="line"> # https://github.com/EYHN/hexo-helper-live2d</span><br><span class="line">live2d:</span><br><span class="line">  enable: true #开关插件版看板娘</span><br><span class="line">  scriptFrom: local # 默认</span><br><span class="line">  pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)</span><br><span class="line">  pluginJsPath: lib/ # 脚本文件相对与插件根目录路径</span><br><span class="line">  pluginModelPath: assets/ # 模型文件相对与插件根目录路径</span><br><span class="line">  # scriptFrom: jsdelivr # jsdelivr CDN</span><br><span class="line">  # scriptFrom: unpkg # unpkg CDN</span><br><span class="line">  # scriptFrom: https://npm.elemecdn.com/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url</span><br><span class="line">  tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中</span><br><span class="line">  debug: false # 调试, 是否在控制台输出日志</span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-model-wanko # npm-module package name</span><br><span class="line">  # use: wanko # 博客根目录/live2d_models/ 下的目录名</span><br><span class="line">  # use: ./wives/wanko # 相对于博客根目录的路径</span><br><span class="line">  # use: https://npm.elemecdn.com/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url</span><br><span class="line">  display:</span><br><span class="line">    position: right #控制看板娘位置</span><br><span class="line">    width: 150 #控制看板娘大小</span><br><span class="line">    height: 300 #控制看板娘大小</span><br><span class="line">  mobile:</span><br><span class="line">    show: true # 手机中是否展示</span><br><span class="line"></span><br><span class="line">完成后保存修改，在Hexo根目录下运行指令。</span><br><span class="line">hexo clean;hexo g;hexo s</span><br><span class="line">更换模型</span><br><span class="line">同样是在Hexo根目录[BlogRoot]下，打开终端，选择想要的看板娘进行安装，例如我这里用到的是 live2d-widget-model-miku</span><br><span class="line">安装miku</span><br><span class="line">npm install --save live2d-widget-model-miku</span><br><span class="line"> 然后在站点配置文件[BlogRoot]\_config.yml里找到model项修改为期望的模型</span><br><span class="line"> model:</span><br><span class="line">  use: live2d-widget-model-miku</span><br><span class="line">  默认为live2d-widget-model-wanko</span><br><span class="line">  随后hexo s</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo命令 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo命令 </tag>
             
         </tags>
       
