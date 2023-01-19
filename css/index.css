@@ -2717,11 +2717,11 @@ figure.highlight pre .javascript .function {
   margin: 0px 25px 30px 25px;
 }
 .recent-posts .recent-post-item .recent-post-content .article-content .article-content-text::before {
-  content: "❝";
+  content: "「";
   font-size: 20px;
 }
 .recent-posts .recent-post-item .recent-post-content .article-content .article-content-text::after {
-  content: "❞";
+  content: " 」";
   font-size: 20px;
 }
 .recent-posts .recent-post-item .recent-post-content .recent-post-arrow {
