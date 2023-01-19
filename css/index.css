@@ -1397,7 +1397,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://cdn.staticaly.com/gh/fjh02/piic__bed@main/photo/2ea9178d432f4c609cf9e4eb402937ca1dbb2f27.3n8il5sb3a80.webp);
+  background: url(https://cdn.staticaly.com/gh/fjh02/piic__bed@main/photo/background.8o1re3h7ljo.webp);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -6345,6 +6345,12 @@ blockquote.pullquote.right {
   height: 100%;
   background-color: rgba(0,0,0,0.7);
   content: '';
+}
+[data-theme='dark'] #web_bg {
+  background-image: url("https://cdn.staticaly.com/gh/fjh02/piic__bed@main/photo/2ea9178d432f4c609cf9e4eb402937ca1dbb2f27.3n8il5sb3a80.webp");
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat center;
 }
 [data-theme='dark'] #article-container code {
   background: #2c2c2c;
