@@ -2428,7 +2428,7 @@ figure.highlight pre .javascript .function {
   font-size: 1.5em;
 }
 :root {
-  --recent-post-bgcolor: rgba(200,200,200,0.5);
+  --recent-post-bgcolor: #fff;
   --article-content-bgcolor: #49b1f5;
   --recent-post-arrow: #fff;
   --recent-post-cover-shadow: #fff;
@@ -2717,11 +2717,11 @@ figure.highlight pre .javascript .function {
   margin: 0px 25px 30px 25px;
 }
 .recent-posts .recent-post-item .recent-post-content .article-content .article-content-text::before {
-  content: "「";
+  content: "❝";
   font-size: 20px;
 }
 .recent-posts .recent-post-item .recent-post-content .article-content .article-content-text::after {
-  content: "」";
+  content: "❞";
   font-size: 20px;
 }
 .recent-posts .recent-post-item .recent-post-content .recent-post-arrow {
