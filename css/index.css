@@ -2435,7 +2435,7 @@ figure.highlight pre .javascript .function {
   --recent-post-transition: all 0.5s cubic-bezier(0.59, 0.01, 0.48, 1.17);
 }
 [data-theme="dark"] {
-  --recent-post-bgcolor: rgba(35,35,35,0.5);
+  --recent-post-bgcolor: #232323;
   --article-content-bgcolor: #99999a;
   --recent-post-arrow: #37e2dd;
   --recent-post-cover-shadow: #232323;
