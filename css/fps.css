@@ -2,18 +2,18 @@
 #fps {
     position: fixed;
     /* 指定位置 */
-    left: 10px;
-    bottom: 10px;
+    right: 10px;
+    bottom: 260px;
     z-index: 1919810;
   }
   [data-theme="light"] #fps {
-    background-color: rgba(28, 94, 194, 0.85);
+    background-color: hwb(0 100% 0% / 0.85);
     backdrop-filter: var(--backdrop-filter);
     padding: 4px;
     border-radius: 4px;
   }
   [data-theme="dark"] #fps {
-    background-color: #149e52b8;
+    background-color: #000000b8;
     backdrop-filter: var(--backdrop-filter);
     padding: 4px;
     border-radius: 4px;
