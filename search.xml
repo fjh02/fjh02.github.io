@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>轻小说推荐</title>
+      <link href="/2023/01/26/book/"/>
+      <url>/2023/01/26/book/</url>
+      
+        <content type="html"><![CDATA[<h1 id="连载中…"><a href="#连载中…" class="headerlink" title="连载中…"></a>连载中…</h1><p><a href=" https://w.linovelib.com/novel/3095.html">败犬女主也太多了</a><br><a href=" https://w.linovelib.com/novel/2499.html "> 继母的拖油瓶是我的前女友</a><br><a href=" https://w.linovelib.com/novel/3545.html "> 好朋友的妹妹貌似愿意当我官能小说的模特</a><br><a href=" https://w.linovelib.com/novel/2547.html "> 关于我在无意间被隔壁的天使变成废柴这件事</a>(惨遭动漫化)</p><h1 id="已完结"><a href="#已完结" class="headerlink" title="已完结"></a>已完结</h1><p><a href=" https://w.linovelib.com/novel/88.html ">文学少女</a>(经典小说)<br><a href=" https://w.linovelib.com/novel/107.html "> 妹妹x杀手x宅配变</a>(经典小说)</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 小说推荐 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>学习笔记</title>
       <link href="/2023/01/20/HTML/"/>
       <url>/2023/01/20/HTML/</url>
@@ -129,31 +148,6 @@
     
     
     <entry>
-      <title>电脑硬件科普---主板篇</title>
-      <link href="/2023/01/08/%E4%B8%BB%E6%9D%BF/"/>
-      <url>/2023/01/08/%E4%B8%BB%E6%9D%BF/</url>
-      
-        <content type="html"><![CDATA[<p>主板，是计算机最基本也是最重要的部件之一<br>除了电源其他我说到的部件全都装在这上面，还有各种接口<br>主板还有BIOS芯片，南桥北桥芯片<br>主板结构分为AT,BABY AT,ATX,BTX,一体化主板(一体机中多)NLX<br>想买主板的可以去中关村在线去查主板排行榜哦</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 电脑硬件介绍 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 电脑硬件介绍 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>常用命令</title>
       <link href="/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
       <url>/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
@@ -171,6 +165,31 @@
         <tags>
             
             <tag> hexo命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电脑硬件科普---主板篇</title>
+      <link href="/2023/01/08/%E4%B8%BB%E6%9D%BF/"/>
+      <url>/2023/01/08/%E4%B8%BB%E6%9D%BF/</url>
+      
+        <content type="html"><![CDATA[<p>主板，是计算机最基本也是最重要的部件之一<br>除了电源其他我说到的部件全都装在这上面，还有各种接口<br>主板还有BIOS芯片，南桥北桥芯片<br>主板结构分为AT,BABY AT,ATX,BTX,一体化主板(一体机中多)NLX<br>想买主板的可以去中关村在线去查主板排行榜哦</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 电脑硬件介绍 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑硬件介绍 </tag>
             
         </tags>
       
