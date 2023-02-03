@@ -563,3 +563,11 @@ svg.icon {
   left: 50%;
   transform: translate(-50%, -48px);
 }
+
+#nav .menus_items {
+  /* display: inline; 这个带不带都可以，本来就是inline */
+  position: absolute;
+  width: fit-content;
+  left: 50%;
+  transform: translateX(-50%);
+}

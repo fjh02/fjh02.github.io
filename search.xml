@@ -23,31 +23,6 @@
     
     
     <entry>
-      <title>学习笔记</title>
-      <link href="/2023/01/20/HTML/"/>
-      <url>/2023/01/20/HTML/</url>
-      
-        <content type="html"><![CDATA[<p>20分钟入门&gt;&gt;&gt;<a href="https://www.bilibili.com/video/BV1jf4y1J7Ms/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=b200b8867651c98fdf012837813a9fce">点我😋</a></p><h1 id="HTML-实例"><a href="#HTML-实例" class="headerlink" title="HTML 实例"></a>HTML 实例</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;meta charset=&quot;utf-8&quot;&gt;</span><br><span class="line">&lt;title&gt;这是页面标题&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;h1&gt;我的第一个标题&lt;/h1&gt;</span><br><span class="line">    &lt;p&gt;我的第一个段落。&lt;/p&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure><h1 id="html编辑器推荐用Vs-code"><a href="#html编辑器推荐用Vs-code" class="headerlink" title="html编辑器推荐用Vs code"></a>html编辑器推荐用Vs code</h1><h1 id="HTML-标题"><a href="#HTML-标题" class="headerlink" title="HTML 标题"></a>HTML 标题</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">HTML 标题（Heading）是通过&lt;h1&gt; - &lt;h6&gt; 标签来定义的</span><br><span class="line">&lt;h1&gt;这是一个标题&lt;/h1&gt;</span><br><span class="line">&lt;h2&gt;这是一个标题&lt;/h2&gt;</span><br><span class="line">&lt;h3&gt;这是一个标题&lt;/h3&gt;</span><br></pre></td></tr></table></figure><h1 id="HTML-段落"><a href="#HTML-段落" class="headerlink" title="HTML 段落"></a>HTML 段落</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">HTML 段落是通过标签 &lt;p&gt; 来定义的。</span><br><span class="line">&lt;p&gt;这是一个段落。&lt;/p&gt;</span><br><span class="line">&lt;p&gt;这是另外一个段落。&lt;/p&gt;</span><br></pre></td></tr></table></figure><h1 id="HTML-链接"><a href="#HTML-链接" class="headerlink" title="HTML 链接"></a>HTML 链接</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;url&quot;&gt;链接文本&lt;/a&gt;</span><br><span class="line">实例 &lt;a href=&quot;www.fjh01.top&quot;&gt;这是描述&lt;/a&gt;</span><br></pre></td></tr></table></figure><h1 id="HTML-图像"><a href="#HTML-图像" class="headerlink" title="HTML 图像"></a>HTML 图像</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">HTML 图像是通过标签 &lt;img&gt; 来定义的.</span><br><span class="line">实例 &lt;img decoding=&quot;async&quot; src=&quot;/images/logo.png&quot; width=&quot;258&quot; height=&quot;39&quot; /&gt;</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习笔记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 学习笔记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>博客美化</title>
       <link href="/2023/01/20/Steam%E5%BA%93%E5%AD%98/"/>
       <url>/2023/01/20/Steam%E5%BA%93%E5%AD%98/</url>
@@ -65,6 +40,31 @@
         <tags>
             
             <tag> 美化 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>学习笔记</title>
+      <link href="/2023/01/20/HTML/"/>
+      <url>/2023/01/20/HTML/</url>
+      
+        <content type="html"><![CDATA[<p>20分钟入门&gt;&gt;&gt;<a href="https://www.bilibili.com/video/BV1jf4y1J7Ms/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=b200b8867651c98fdf012837813a9fce">点我😋</a></p><h1 id="HTML-实例"><a href="#HTML-实例" class="headerlink" title="HTML 实例"></a>HTML 实例</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;meta charset=&quot;utf-8&quot;&gt;</span><br><span class="line">&lt;title&gt;这是页面标题&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;h1&gt;我的第一个标题&lt;/h1&gt;</span><br><span class="line">    &lt;p&gt;我的第一个段落。&lt;/p&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure><h1 id="html编辑器推荐用Vs-code"><a href="#html编辑器推荐用Vs-code" class="headerlink" title="html编辑器推荐用Vs code"></a>html编辑器推荐用Vs code</h1><h1 id="HTML-标题"><a href="#HTML-标题" class="headerlink" title="HTML 标题"></a>HTML 标题</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">HTML 标题（Heading）是通过&lt;h1&gt; - &lt;h6&gt; 标签来定义的</span><br><span class="line">&lt;h1&gt;这是一个标题&lt;/h1&gt;</span><br><span class="line">&lt;h2&gt;这是一个标题&lt;/h2&gt;</span><br><span class="line">&lt;h3&gt;这是一个标题&lt;/h3&gt;</span><br></pre></td></tr></table></figure><h1 id="HTML-段落"><a href="#HTML-段落" class="headerlink" title="HTML 段落"></a>HTML 段落</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">HTML 段落是通过标签 &lt;p&gt; 来定义的。</span><br><span class="line">&lt;p&gt;这是一个段落。&lt;/p&gt;</span><br><span class="line">&lt;p&gt;这是另外一个段落。&lt;/p&gt;</span><br></pre></td></tr></table></figure><h1 id="HTML-链接"><a href="#HTML-链接" class="headerlink" title="HTML 链接"></a>HTML 链接</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;url&quot;&gt;链接文本&lt;/a&gt;</span><br><span class="line">实例 &lt;a href=&quot;www.fjh01.top&quot;&gt;这是描述&lt;/a&gt;</span><br></pre></td></tr></table></figure><h1 id="HTML-图像"><a href="#HTML-图像" class="headerlink" title="HTML 图像"></a>HTML 图像</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">HTML 图像是通过标签 &lt;img&gt; 来定义的.</span><br><span class="line">实例 &lt;img decoding=&quot;async&quot; src=&quot;/images/logo.png&quot; width=&quot;258&quot; height=&quot;39&quot; /&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
             
         </tags>
       
