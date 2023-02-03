@@ -23,31 +23,6 @@
     
     
     <entry>
-      <title>博客美化</title>
-      <link href="/2023/01/20/Steam%E5%BA%93%E5%AD%98/"/>
-      <url>/2023/01/20/Steam%E5%BA%93%E5%AD%98/</url>
-      
-        <content type="html"><![CDATA[<h1 id="添加Steam游戏页面教程"><a href="#添加Steam游戏页面教程" class="headerlink" title="添加Steam游戏页面教程"></a>添加Steam游戏页面教程</h1><p>页面样式<a href=" https://www.fjh01.top/yx/">点我😆</a><br>注意，本插件会和hexo s命令冲突，请使用hexo se或hexo server代替hexo s命令！</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-steam-games --save</span><br></pre></td></tr></table></figure><h2 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-steam-games --update --save</span><br></pre></td></tr></table></figure><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">steam:</span><br><span class="line"> enable: true</span><br><span class="line"> steamId: &#x27;*****&#x27; #steam 64位Id</span><br><span class="line"> path:</span><br><span class="line"> title: Steam游戏库</span><br><span class="line"> quote: &#x27;+1+1+1+1+1&#x27;</span><br><span class="line"> tab: recent</span><br><span class="line"> length: 1000</span><br><span class="line"> imgUrl: &#x27;*****&#x27;</span><br><span class="line"> proxy:</span><br><span class="line">   host:</span><br><span class="line">   port:</span><br></pre></td></tr></table></figure><p>enable: 是否启用<br>steamId: steam 64 位 Id(需要放在引号里面，不然会有 BUG),需要将 steam 库设置为公开！<br>path: 番剧页面路径，默认steamgames&#x2F;index.html<br>title: 该页面的标题<br>quote: 写在页面开头的一段话,支持 html 语法<br>tab:all或recent,all: 所有游戏,recent: 最近游玩的游戏<br>length: 要显示游戏的数量，游戏太多的话可以限制一下<br>imgUrl: 图片链接，在quote下面放一张图片，图片链接到 Steam 个人资料，可留空<br>proxy: 如果无法访问 steam 社区的话请使用代理<br>host: 代理 ip 或域名<br>port: 代理端口</p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>1.在hexo generate或hexo deploy之前使用hexo steam -u命令更新 steam 游戏库数据！<br>2.删除游戏库数据指令:hexo steam -d</p><h2 id="手动获取Steam库资料"><a href="#手动获取Steam库资料" class="headerlink" title="手动获取Steam库资料"></a>手动获取Steam库资料</h2><p>如果hexo steam -u命令一直获取游戏库数据失败，可以用以下方法手动获取游戏库数据：</p><p>1.浏览器打开<a href="https://steamcommunity.com/profiles/%7BsteamId%7D/games?tab=%7Btab%7D,%7BsteamId%7D%E5%92%8C%7Btab%7D%E5%88%86%E5%88%AB%E6%9B%BF%E6%8D%A2%E4%B8%BA%E4%B8%8A%E9%9D%A2%E9%85%8D%E7%BD%AE%E4%B8%AD%E6%8F%90%E5%88%B0%E7%9A%84steamId%E5%92%8Ctab">https://steamcommunity.com/profiles/{steamId}/games?tab={tab},{steamId}和{tab}分别替换为上面配置中提到的steamId和tab</a></p><p>2.网页加载完成后，打开浏览器控制台(按F12)，输入以下代码并回车：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"> let script = jQuery(&#x27;script[language=&quot;javascript&quot;]&#x27;);</span><br><span class="line">var games = [];</span><br><span class="line">for (let i = 0; i &lt; script.length; i++) &#123;</span><br><span class="line">  if (script.eq(i).html().includes(&quot;rgGames&quot;)) &#123;</span><br><span class="line">    let rgGames = script.eq(i).html().match(/var.*?rgGames.*?=.*?(\[[\w\W]*?\&#125;\&#125;\]);/);</span><br><span class="line">    if (rgGames) &#123;</span><br><span class="line">      games = JSON.parse(rgGames[1]);</span><br><span class="line">      break;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">document.write(JSON.stringify(games))</span><br></pre></td></tr></table></figure><ol start="3"><li>将生成的内容复制到博客根目录&#x2F;node_modules&#x2F;hexo-steam-games&#x2F;data&#x2F;games.json文件内，如果没有对应的文件或目录，请自行创建<br>转载自hclonely大佬</li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 博客美化 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 美化 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>学习笔记</title>
       <link href="/2023/01/20/HTML/"/>
       <url>/2023/01/20/HTML/</url>
@@ -65,6 +40,31 @@
         <tags>
             
             <tag> 学习笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>博客美化</title>
+      <link href="/2023/01/20/Steam%E5%BA%93%E5%AD%98/"/>
+      <url>/2023/01/20/Steam%E5%BA%93%E5%AD%98/</url>
+      
+        <content type="html"><![CDATA[<h1 id="添加Steam游戏页面教程"><a href="#添加Steam游戏页面教程" class="headerlink" title="添加Steam游戏页面教程"></a>添加Steam游戏页面教程</h1><p>页面样式<a href=" https://www.fjh01.top/yx/">点我😆</a><br>注意，本插件会和hexo s命令冲突，请使用hexo se或hexo server代替hexo s命令！</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-steam-games --save</span><br></pre></td></tr></table></figure><h2 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-steam-games --update --save</span><br></pre></td></tr></table></figure><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">steam:</span><br><span class="line"> enable: true</span><br><span class="line"> steamId: &#x27;*****&#x27; #steam 64位Id</span><br><span class="line"> path:</span><br><span class="line"> title: Steam游戏库</span><br><span class="line"> quote: &#x27;+1+1+1+1+1&#x27;</span><br><span class="line"> tab: recent</span><br><span class="line"> length: 1000</span><br><span class="line"> imgUrl: &#x27;*****&#x27;</span><br><span class="line"> proxy:</span><br><span class="line">   host:</span><br><span class="line">   port:</span><br></pre></td></tr></table></figure><p>enable: 是否启用<br>steamId: steam 64 位 Id(需要放在引号里面，不然会有 BUG),需要将 steam 库设置为公开！<br>path: 番剧页面路径，默认steamgames&#x2F;index.html<br>title: 该页面的标题<br>quote: 写在页面开头的一段话,支持 html 语法<br>tab:all或recent,all: 所有游戏,recent: 最近游玩的游戏<br>length: 要显示游戏的数量，游戏太多的话可以限制一下<br>imgUrl: 图片链接，在quote下面放一张图片，图片链接到 Steam 个人资料，可留空<br>proxy: 如果无法访问 steam 社区的话请使用代理<br>host: 代理 ip 或域名<br>port: 代理端口</p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>1.在hexo generate或hexo deploy之前使用hexo steam -u命令更新 steam 游戏库数据！<br>2.删除游戏库数据指令:hexo steam -d</p><h2 id="手动获取Steam库资料"><a href="#手动获取Steam库资料" class="headerlink" title="手动获取Steam库资料"></a>手动获取Steam库资料</h2><p>如果hexo steam -u命令一直获取游戏库数据失败，可以用以下方法手动获取游戏库数据：</p><p>1.浏览器打开<a href="https://steamcommunity.com/profiles/%7BsteamId%7D/games?tab=%7Btab%7D,%7BsteamId%7D%E5%92%8C%7Btab%7D%E5%88%86%E5%88%AB%E6%9B%BF%E6%8D%A2%E4%B8%BA%E4%B8%8A%E9%9D%A2%E9%85%8D%E7%BD%AE%E4%B8%AD%E6%8F%90%E5%88%B0%E7%9A%84steamId%E5%92%8Ctab">https://steamcommunity.com/profiles/{steamId}/games?tab={tab},{steamId}和{tab}分别替换为上面配置中提到的steamId和tab</a></p><p>2.网页加载完成后，打开浏览器控制台(按F12)，输入以下代码并回车：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"> let script = jQuery(&#x27;script[language=&quot;javascript&quot;]&#x27;);</span><br><span class="line">var games = [];</span><br><span class="line">for (let i = 0; i &lt; script.length; i++) &#123;</span><br><span class="line">  if (script.eq(i).html().includes(&quot;rgGames&quot;)) &#123;</span><br><span class="line">    let rgGames = script.eq(i).html().match(/var.*?rgGames.*?=.*?(\[[\w\W]*?\&#125;\&#125;\]);/);</span><br><span class="line">    if (rgGames) &#123;</span><br><span class="line">      games = JSON.parse(rgGames[1]);</span><br><span class="line">      break;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">document.write(JSON.stringify(games))</span><br></pre></td></tr></table></figure><ol start="3"><li>将生成的内容复制到博客根目录&#x2F;node_modules&#x2F;hexo-steam-games&#x2F;data&#x2F;games.json文件内，如果没有对应的文件或目录，请自行创建<br>转载自hclonely大佬</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客美化 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 美化 </tag>
             
         </tags>
       
