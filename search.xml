@@ -223,31 +223,6 @@
     
     
     <entry>
-      <title>电脑硬件科普---硬盘篇</title>
-      <link href="/2023/01/08/%E7%A1%AC%E7%9B%98/"/>
-      <url>/2023/01/08/%E7%A1%AC%E7%9B%98/</url>
-      
-        <content type="html"><![CDATA[<p>硬盘就是装东西的不用多说了<br>硬盘分固态硬盘和机械硬盘<br>推荐使用固态硬盘，机械硬盘要用cmr的记录方式<br>机械硬盘记录方式有2种cmr和smr<br>为什么要用cmr的你可以去网上搜视频了解一下</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 电脑硬件介绍 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 电脑硬件介绍 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>2d看板娘</title>
       <link href="/2023/01/08/%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
       <url>/2023/01/08/%E7%9C%8B%E6%9D%BF%E5%A8%98/</url>
@@ -265,6 +240,31 @@
         <tags>
             
             <tag> hexo命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电脑硬件科普---硬盘篇</title>
+      <link href="/2023/01/08/%E7%A1%AC%E7%9B%98/"/>
+      <url>/2023/01/08/%E7%A1%AC%E7%9B%98/</url>
+      
+        <content type="html"><![CDATA[<p>硬盘就是装东西的不用多说了<br>硬盘分固态硬盘和机械硬盘<br>推荐使用固态硬盘，机械硬盘要用cmr的记录方式<br>机械硬盘记录方式有2种cmr和smr<br>为什么要用cmr的你可以去网上搜视频了解一下</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 电脑硬件介绍 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑硬件介绍 </tag>
             
         </tags>
       
