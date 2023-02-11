@@ -173,31 +173,6 @@
     
     
     <entry>
-      <title>常用命令</title>
-      <link href="/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
-      <url>/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-      
-        <content type="html"><![CDATA[<p>hexo s 启动服务器。默认情况下，访问网址为： <a href="http://localhost:4000/%E3%80%82">http://localhost:4000/。</a><br>hexo clean 清除缓存文件 (db.json) 和已生成的静态文件 (public)<br>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。<br>hexo cl; hexo se  访问本地<br>hexo clean; hexo henerate; hexo deploy 部署<br>上网搜去<br>删除插件npm uninstall &lt;你的插件名&gt;<br>查看插件npm list<br>更新追番数据hexo bangumi -u<br>添加音乐插件<a href=" https://www.ngui.cc/zz/1816774.html?action=onClick">点我😆</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> hexo命令 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> hexo命令 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>电脑硬件科普---电源篇</title>
       <link href="/2023/01/08/%E7%94%B5%E6%BA%90/"/>
       <url>/2023/01/08/%E7%94%B5%E6%BA%90/</url>
@@ -215,6 +190,31 @@
         <tags>
             
             <tag> 电脑硬件介绍 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>常用命令</title>
+      <link href="/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+      <url>/2023/01/08/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<p>hexo s 启动服务器。默认情况下，访问网址为： <a href="http://localhost:4000/%E3%80%82">http://localhost:4000/。</a><br>hexo clean 清除缓存文件 (db.json) 和已生成的静态文件 (public)<br>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。<br>hexo cl; hexo se  访问本地<br>hexo clean; hexo henerate; hexo deploy 部署<br>上网搜去<br>删除插件npm uninstall &lt;你的插件名&gt;<br>查看插件npm list<br>更新追番数据hexo bangumi -u<br>添加音乐插件<a href=" https://www.ngui.cc/zz/1816774.html?action=onClick">点我😆</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo命令 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo命令 </tag>
             
         </tags>
       
